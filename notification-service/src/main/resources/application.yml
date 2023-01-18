@@ -1,0 +1,9 @@
+booking:
+  url: http://localhost:8082/booking
+
+spring:
+  kafka:
+    consumer:
+      group-id: "default"
+
+topic.name: booking
